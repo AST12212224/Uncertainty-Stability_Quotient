@@ -2,7 +2,7 @@
 
 ## **📌 Overview**  
 This C++ program computes the function  
-$$\Phi_{n,a,b}(x,y) =\frac{x^{n\pm a}\pm y^{n\pm a}}{x^{n\pm b}\pm y^{n\pm b}}$$
+**$$\Phi_{n,a,b}(x,y) =\frac{x^{n\pm a}\pm y^{n\pm a}}{x^{n\pm b}\pm y^{n\pm b}}$$**
 
 
 using the **GMP (GNU Multiple Precision) library** to ensure high-precision arithmetic. It is designed for large numbers and avoids floating-point precision loss.  
