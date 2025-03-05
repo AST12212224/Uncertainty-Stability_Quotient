@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 #include <iomanip>   // For setting precision
 #include <gmpxx.h>   // GMP for high-precision calculations
 
@@ -38,20 +37,6 @@ int main() {
     // Print result
     std::cout << "Phi(" << n << "," << a << "," << b << ") = "
               << std::fixed << std::setprecision(10) << result << std::endl;
-
-    // Write to a CSV file
-    std::ofstream outFile("results.csv", std::ios::out);
-    if (!outFile) {
-        std::cerr << "Error opening file!" << std::endl;
-        return 1;
-    }
-
-    outFile << "n,x,y,a,b,Result\n";  // CSV Header
-    outFile << n << "," << x << "," << y << "," << a << "," << b << ","
-            << std::fixed << std::setprecision(10) << result << "\n";
-
-    outFile.close();
-    std::cout << "Result written to results.csv" << std::endl;
 
     return 0;
 }
