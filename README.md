@@ -1,4 +1,4 @@
-# **High-Precision Calculation of \( \Phi_{n,a,b}(x,y) \) using GMP**  
+# **High-Precision Calculation of $ \Phi_{n,a,b}(x,y) $ using GMP**  
 
 ## **📌 Overview**  
 This C++ program computes the function  
