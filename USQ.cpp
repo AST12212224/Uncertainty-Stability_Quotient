@@ -1,6 +1,6 @@
 #include <iostream>
-#include <iomanip>   // For setting precision
-#include <gmpxx.h>   // GMP for high-precision calculations
+#include <iomanip>   
+#include <gmpxx.h>
 
 int main() {
     // Set high precision for floating-point calculations
